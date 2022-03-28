@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-          <!-- bootstrap css -->
+	  <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" href="css/style.css">
@@ -24,13 +24,13 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-        <title>Add Petient Information</title>
+	<title>Client</title>
 </head>
 <center>
 
 
-                <body bgcolor="lightgrey">
-                      <header>
+		<body bgcolor="lightgrey">
+		      <header>
          <!-- header inner -->
          <div class="header">
             <div class="container-fluid">
@@ -52,9 +52,9 @@
                            </button>
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
-                                                          <li class="nav-item active">
+							  <li class="nav-item active">
                                     <a class="nav-link" href="about.html"> About Us  </a>
-                                 </li>
+                                 </li> 
                                  <li class="nav-item">
                                     <a class="nav-link" href="clients.html">Our Info/Success</a>
                                  </li>
@@ -74,40 +74,42 @@
             </div>
          </div>
       </header>
-                                <font color="black" size="4" style="font-family: avenir">
+      <!-- end header inner -->
+      <!-- end header -->
+     
+      <!-- clients -->
+      <div class="clients">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 offset-md-3">
+                  <div class="titlepage">
+                     <h2>What is clients say</h2>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="clients_box">
+                    <p>As country’s leading multispecialty health care facilities, Apollo Hospitals has a well-earned reputation of being the pioneer of healthcare in India. Established in 1983, Apollo Hospitals has touched millions of lives, providing the best care and treatment for simple to most complicated diseases and conditions to the community. Combining the best available technology, medical expertise and equipment, we are redefining healthcare excellence to ensure all our patients receive comprehensive and integrated service with utmost compassion, support and care.
+Positive reviews by our patients or their family members stand testimony to the highest level of care we provide throughout our facility. Please peruse the reviews below to see what our patients are saying about us. For privacy purposes, we only included the first names of the authors.</p>
+                  </div>
+                  <div class="jonu">
+                     <img src="images/cross_img.png" alt="#"/>
+                     <h3>Mr Perfect</h3>
+                     <strong>(sure there isn't)</strong>
+                     <a class="read_more" href="#">Get A Quote</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end clients -->
+     
+      <!--  footer -->
 
-                <marquee><h1 style="color: DodgerBlue">Hospital Database</h1></marquee>
-
-                        <form action="/addemp" autocomplete="on" method = "POST" enctype="multipart/form-data">
-
-                                <button type="submit" formaction="/getemp" style="background: grey; height: 75px; width: 230px; color:white; font:oblique;">GET PETIENT INFORMATION</button><br><br>
-
-                                Patient Number:<br> <input style="height:25px;font-size:14pt; color:grey;" type="number" name="emp_id" autofocus size="40"><br><br>
-
-                                First Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="first_name" ><br><br>
-
-                                Last Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="last_name"><br><br>
-
-                                Mobile no.:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="pri_skill"><br><br>
-
-                                Email:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="location"><br><br>
-
-                                Address:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="location"><br><br>
-
-                                Info file: <input type=file name="emp_image_file" style="height:35px;font-size:10pt;color:grey;"> <br><br>
-
-                                <div class="col-md-6 padding_bottom1   ">
-                                <button class="submit">UPDATE DATABASE</button>
-                                </div>
-                        </form>
-
-<a href="/about">About Us</a>
-                </body>
-
-        </font>
-</center>
-
-<div class="copyright">
+   </body>
+   <div class="copyright">
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">

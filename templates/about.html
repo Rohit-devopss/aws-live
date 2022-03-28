@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-          <!-- bootstrap css -->
+	  <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" href="css/style.css">
@@ -24,13 +24,13 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-        <title>Add Petient Information</title>
+	<title>Client</title>
 </head>
 <center>
 
 
-                <body bgcolor="lightgrey">
-                      <header>
+		<body bgcolor="lightgrey">
+		      <header>
          <!-- header inner -->
          <div class="header">
             <div class="container-fluid">
@@ -52,9 +52,9 @@
                            </button>
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
-                                                          <li class="nav-item active">
+							  <li class="nav-item active">
                                     <a class="nav-link" href="about.html"> About Us  </a>
-                                 </li>
+                                 </li> 
                                  <li class="nav-item">
                                     <a class="nav-link" href="clients.html">Our Info/Success</a>
                                  </li>
@@ -74,40 +74,34 @@
             </div>
          </div>
       </header>
-                                <font color="black" size="4" style="font-family: avenir">
+      <!-- end header inner -->
+      <!-- end header -->
+    
+      <!-- about -->
+      <div id="about"  class="about">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>About Us</h2>
+                     <span></span>
+                     <p>The greatest glory in living lies not in never falling, but in rising every time we fall</p>
+					 <p>The way to get started is to quit talking and begin doing</p>
+					 <p>If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough</p>
+                     <a class="read_more">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="images/about_img.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
 
-                <marquee><h1 style="color: DodgerBlue">Hospital Database</h1></marquee>
-
-                        <form action="/addemp" autocomplete="on" method = "POST" enctype="multipart/form-data">
-
-                                <button type="submit" formaction="/getemp" style="background: grey; height: 75px; width: 230px; color:white; font:oblique;">GET PETIENT INFORMATION</button><br><br>
-
-                                Patient Number:<br> <input style="height:25px;font-size:14pt; color:grey;" type="number" name="emp_id" autofocus size="40"><br><br>
-
-                                First Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="first_name" ><br><br>
-
-                                Last Name:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="last_name"><br><br>
-
-                                Mobile no.:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="pri_skill"><br><br>
-
-                                Email:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="location"><br><br>
-
-                                Address:<br> <input style="height:25px;font-size:14pt;color:grey;" type="text" name="location"><br><br>
-
-                                Info file: <input type=file name="emp_image_file" style="height:35px;font-size:10pt;color:grey;"> <br><br>
-
-                                <div class="col-md-6 padding_bottom1   ">
-                                <button class="submit">UPDATE DATABASE</button>
-                                </div>
-                        </form>
-
-<a href="/about">About Us</a>
-                </body>
-
-        </font>
-</center>
-
-<div class="copyright">
+   </body>
+      <div class="copyright">
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
