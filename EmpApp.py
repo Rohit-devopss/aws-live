@@ -23,12 +23,12 @@ table = 'RohitDB'
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
-    return render_template('AddEmp.html')
+    return render_template('contact.html')
 
 
 @app.route("/about", methods=['POST'])
 def about():
-    return render_template('www.intellipaat.com')
+    return render_template('about.html')
 
 
 @app.route("/addemp", methods=['POST'])
